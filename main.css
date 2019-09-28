@@ -1,0 +1,409 @@
+/* Colors */
+/* Logo colors */
+/* Theme colors */
+/* Cards */
+/* defaults */
+/* Index page login form */
+/* Deck show page */
+/* Card Editors */
+/* Navbar colors */
+/* Home cards */
+/*** TEXT ***/
+/*** IMG card ***/
+/* Home page wrappers arrangement */
+/* info panels */
+/* Navbar variables */
+/* time period */
+/* The tabs */
+/* Profile pic and user stats */
+/* General Profile page */
+/* Deck display on profile page */
+/* Media */
+/* Colors */
+/* Logo colors */
+/* Theme colors */
+/* Cards */
+/* defaults */
+/* Index page login form */
+/* Deck show page */
+/* Card Editors */
+/* Navbar colors */
+/* Home cards */
+/*** TEXT ***/
+/*** IMG card ***/
+/* Home page wrappers arrangement */
+/* info panels */
+/* Navbar variables */
+/* time period */
+/* The tabs */
+/* Profile pic and user stats */
+/* General Profile page */
+/* Deck display on profile page */
+/* Media */
+.profile {
+  width: 100px;
+  /* max-width: 50px; */
+  /* float:right; */ }
+
+.big-name {
+  width: 95%;
+  /* float:left; */
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .big-name .profile {
+    position: absolute;
+    right: 0;
+    top: -25px; }
+
+/* type 1: small circle */
+.profile img {
+  height: 100px;
+  border-radius: 51px;
+  border: 2px double #EFEFEF;
+  margin-right: 0px; }
+
+/* Colors */
+/* Logo colors */
+/* Theme colors */
+/* Cards */
+/* defaults */
+/* Index page login form */
+/* Deck show page */
+/* Card Editors */
+/* Navbar colors */
+/* Home cards */
+/*** TEXT ***/
+/*** IMG card ***/
+/* Home page wrappers arrangement */
+/* info panels */
+/* Navbar variables */
+/* time period */
+/* The tabs */
+/* Profile pic and user stats */
+/* General Profile page */
+/* Deck display on profile page */
+/* Media */
+.main-wrapper {
+  max-width: 600px;
+  /* margin-left: 0px; */
+  text-align: left;
+  margin: auto;
+  background-color: white;
+  /* shadow */
+  /* box-shadow: 0px 0px 3px 3px #222; */ }
+
+.main-section .emph {
+  color: #996600; }
+
+.sub-section {
+  border-left: 5px solid #EFEFEF;
+  padding-left: 10px;
+  margin-bottom: 5px; }
+
+/* Subsection that contains videos within a main-section,
+   Or, is the section right after one that contains a video.
+*/
+.sub-section-vid, .sub-section-papers, sub-section-proj {
+  padding-top: 14px; }
+
+.sub-section-vid.nopad, .sub-section-papers.nopad, sub-section-proj {
+  padding-top: 0px; }
+
+.centered-text {
+  padding: 20px;
+  max-width: 500px;
+  margin: auto; }
+
+.centered-pic {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 15px; }
+
+.centered-pic img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+
+.centered-pic img.shadowed {
+  box-shadow: 0px 0px 10px #555555; }
+
+.meta-note {
+  color: #76787a; }
+
+.footnote {
+  max-width: 550px;
+  border-top: solid 1px black;
+  margin: auto;
+  padding-bottom: 20px; }
+
+.footnote p {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 10px; }
+
+.embed-video, .feature-img, .further-info {
+  max-width: 466px;
+  margin-top: 10px; }
+
+.embed-video, .feature-img {
+  max-height: 263px; }
+
+.embed-video {
+  background: #EFEFEF; }
+
+.embed-video .videowrapper:after {
+  content: "Loading Youtube video... (Unavailable in Mainland China)";
+  margin-left: 20px;
+  color: grey; }
+
+.feature-img img {
+  max-width: 100%; }
+
+.further-info.abstract {
+  font-size: 13px;
+  font-style: italic; }
+
+.videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 50.25%;
+  padding-top: 25px;
+  height: 0; }
+
+.videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.show-content-btn:hover {
+  cursor: pointer; }
+
+.hidden {
+  display: none; }
+
+.blog ul {
+  margin-top: 5px;
+  margin-left: 20px; }
+  .blog ul li {
+    margin-bottom: 5px; }
+
+.blog .ending {
+  margin-top: 10px; }
+
+/* Basic global configs */
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  /* background-color: #4E3629;/\*#C0C0C0;*\/ */ }
+
+body, html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Roboto', serif;
+  color: #000000;
+  font-size: 14px; }
+
+ul {
+  margin: 0px;
+  padding: 0px; }
+
+ul.indented-list {
+  margin-top: 5px;
+  margin-left: 20px; }
+  ul.indented-list li {
+    margin-bottom: 5px; }
+
+p {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+h1, h2, h3, h4, h5, h6, h7 {
+  font-family: 'Roboto Slab', serif;
+  color: #000000;
+  margin-bottom: 0px; }
+
+a {
+  text-decoration: none;
+  color: #2F69A3;
+  /* Link to other websites */ }
+
+a:hover {
+  text-decoration: underline; }
+
+a.link-special, a.link-in {
+  color: #dd5800;
+  /* Link within website */ }
+
+.nav a {
+  color: #7f6600; }
+.nav a.alert {
+  color: #d81539; }
+
+/* UW link */
+.uw-link {
+  color: #570083; }
+
+.uw-link:hover {
+  color: #e6b800; }
+
+/* SAIC link */
+#saic-link {
+  color: #FF00A4; }
+
+#saic-link:hover {
+  color: #000000; }
+
+/* Brown link */
+.brown-link {
+  color: #ED1C24; }
+
+.brown-link:hover {
+  color: #4E3629; }
+
+.alert {
+  color: #d81539; }
+
+.attention {
+  color: #075e09; }
+
+.attention a {
+  color: #013d03;
+  font-weight: bold; }
+
+/* /\* type 2: large circle *\/ */
+/* .profile img { */
+/*     max-width: 500px; */
+/*     border-radius: 251px; */
+/*     border: 2px double #EFEFEF; */
+/* } */
+/* /\* type 3: large square *\/ */
+/* .profile img { */
+/*     max-width: 500px; */
+/* } */
+.notif-news {
+  margin-right: 5px;
+  border-radius: 2px;
+  padding: 5px;
+  background-color: #F5F6CE; }
+
+#news {
+  margin-top: 12px; }
+
+#news ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #ffff99; }
+
+#news ul li {
+  padding: 5px; }
+
+.new-label {
+  font-size: 12px;
+  margin-right: 2px;
+  color: #dd5800;
+  background-color: #ffdbc5;
+  padding: 1px;
+  padding-left: 3px;
+  padding-right: 3px; }
+
+#publications a {
+  text-decoration: none; }
+#publications a.pdf-link {
+  text-decoration: underline; }
+#publications a.ext-link {
+  text-decoration: underline; }
+#publications b {
+  font-family: 'Roboto Slab', serif; }
+
+/* Conways */
+#conways-wrapper {
+  max-width: 600px;
+  display: flex;
+  justify-content: center; }
+
+#conways-wrapper #conways-space {
+  background-color: #EFEFEF;
+  padding: 10px; }
+
+li p {
+  font-style: italic;
+  padding: 15px;
+  display: block;
+  border-radius: 10px 10px;
+  color: #4d0099; }
+
+pre {
+  white-space: pre-wrap;
+  /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap;
+  /* Mozilla, since 1999 */
+  white-space: -pre-wrap;
+  /* Opera 4-6 */
+  white-space: -o-pre-wrap;
+  /* Opera 7 */
+  word-wrap: break-word;
+  /* Internet Explorer 5.5+ */
+  background-color: #EFEFEF;
+  padding: 15px; }
+
+.youtube-red {
+  color: #ff0000; }
+
+.facebook-blue {
+  color: #3b5998; }
+
+.header-link {
+  font-weight: 400;
+  font-size: 14px;
+  /* display:block; */
+  /* float:left; */ }
+
+.timestamp {
+  font-size: 12px; }
+
+.row-part {
+  margin-top: 5px; }
+
+.koolio-card {
+  box-shadow: 0px 0px 10px grey;
+  margin-right: 8px; }
+
+.koolio-cards-row {
+  margin-top: 10px;
+  margin-bottom: 15px; }
+
+#profile-card {
+  margin-top: 10px;
+  position: relative;
+  right: 0px;
+  border-radius: 100px; }
+
+#profile-card iframe {
+  right: 0px;
+  margin-left: 10px; }
+
+.indented-list.compact li {
+  display: inline;
+  padding-right: 5px; }
+
+.indented-list.compact li:not(:last-child) {
+  border-right: 1px solid black; }
+
+/*# sourceMappingURL=main.css.map */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

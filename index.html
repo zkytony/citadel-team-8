@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Submission for Boston Datathon">
+	<title>Title</title>
+
+	<!-- Custom Style -->
+	<link href="main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+
+	<!-- Icon -->
+	<!-- <link rel="shortcut icon" href="http://kaiyuzheng.me/favicon.ico" type="image/x-icon" />
+	     <link rel="icon" href="http://kaiyuzheng.me/favicon.ico" type="image/x-icon" /> -->
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+        <!-- Math Jax; From http://docs.mathjax.org/en/latest/web/start.html-->
+        <script>
+         MathJax = {
+             tex: {
+                 inlineMath: [['$', '$'], ['\\(', '\\)']]
+             }
+         };
+        </script>
+        <script type="text/javascript" id="MathJax-script" async
+                src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+	<!-- ====== Website created by Kaiyu Zheng. Copyright 2016- ====== -->
+    </head>
+
+    <body>
+      <div class="main-wrapper" id="top">
+	<div class="centered-text">
+	  <div class="header">
+	    <div class="big-name">
+	      <h1>Did Brexit fundamentally change the dynamics of fundamental economic indicators?</h1>
+              <h4>Li Jing, Wei, Ben Sherman, Kaiyu Zheng</h4>
+	    </div>
+	    <!-- <div style="clear:both;"></div> -->
+	  </div>
+	  <!-- Introduction -->
+          <img src="figs/brexit.jpg" alt="plot" width="100%" class="center">
+          <h1>Non-technical executive summary</h1>
+          <p>
+            The June 23, 2019 Brexit referendum in which the UK voted, by a narrow margin, to leave the EU,
+            was not only a surprise, roiling the London Stock Exchange, but also presented the prospect of major change
+            to the dynamics of the UK markets and social factors, including employment and immigration.
+            How significant were these changes? Can we detect such a fundamental shift from data on the stock market,
+            employment, and immigration alone?
+
+            We addressed these questions with a changepoint model, which hypothesizes that there is some point in time
+            at which the dynamics of these fundamental economic indicators changed, whereas the indicators tend to be constant
+            between changepoints. We found that the changepoint model indeed finds a striking change in roughly August 2019.
+          </p>
+
+          <h1>Technical exposition</h1>
+          <p>
+            When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+            $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+                </p>
+
+                <h2>sub header</h2>
+                <p>
+                  John draw real poor on call my from. May she mrs furnished discourse extremely. Ask doubt noisy shade guest did built her him. Ignorant repeated hastened it do. Consider bachelor he yourself expenses no. Her itself active giving for expect vulgar months. Discovery commanded fat mrs remaining son she principle middleton neglected. Be miss he in post sons held. No tried is defer do money scale rooms.
+                </p>
+
+		<img src="figs/plot.png" alt="plot" width="60%" class="center">
+                <p>
+                  Your it to gave life whom as. Favourable dissimilar resolution led for and had. At play much to time four many. Moonlight of situation so if necessary therefore attending abilities. Calling looking enquire up me to in removal. Park fat she nor does play deal our. Procured sex material his offering humanity laughing moderate can. Unreserved had she nay dissimilar admiration interested. Departure performed exquisite rapturous so ye me resources.
+                </p>
+                <p>
+                  For who thoroughly her boy estimating conviction. Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection favourable mrs can projecting own. Thirty it matter enable become admire in giving. See resolved goodness felicity shy civility domestic had but. Drawings offended yet answered jennings perceive laughing six did far.
+                </p>
+                <p>
+                  Expenses as material breeding insisted building to in. Continual so distrusts pronounce by unwilling listening. Thing do taste on we manor. Him had wound use found hoped. Of distrusts immediate enjoyment curiosity do. Marianne numerous saw thoughts the humoured.
+                </p>
+		<div class="footnote" id="copyright" >
+		  <p></p>
+		</div>
+	    </div>
+	</div>
+    </body>
+    <!-- Custom Script -->
+    <script src="main.js"></script>
+</html>
